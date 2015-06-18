@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDonaldsSagaObserverPatternNSB5.ConsoleClient", "McDonaldsSagaObserverPatternNSB5.ConsoleClient\McDonaldsSagaObserverPatternNSB5.ConsoleClient.csproj", "{9B088988-0D86-42CC-80A4-4414753B2496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDonaldsSagaObserverPatternNSB5.Conventions", "McDonaldsSagaObserverPatternNSB5.Conventions\McDonaldsSagaObserverPatternNSB5.Conventions.csproj", "{9A82ADD6-07BB-4E7A-BD33-2AAD1B4A277C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDonaldsSagaObserverPatternNSB5.Messages", "McDonaldsSagaObserverPatternNSB5.Messages\McDonaldsSagaObserverPatternNSB5.Messages.csproj", "{B18D916E-6E42-4D88-874E-0FEE0247455B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDonaldsSagaObserverPatternNSB5.SagaEndpoint", "McDonaldsSagaObserverPatternNSB5.SagaEndpoint\McDonaldsSagaObserverPatternNSB5.SagaEndpoint.csproj", "{8C9E0BBD-57D8-4F09-A15E-EE2C26FF26BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{319A1118-1445-468F-99CB-4CC4BB5F73A3}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDonaldsSagaObserverPatternNSB5.ShakeEndpoint", "McDonaldsSagaObserverPatternNSB5.ShakeEndpoint\McDonaldsSagaObserverPatternNSB5.ShakeEndpoint.csproj", "{FF41863B-7BAA-45DC-8EBD-92BDF02B76AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDonaldsSagaObserverPatternNSB5.FriesEndpoint", "McDonaldsSagaObserverPatternNSB5.FriesEndpoint\McDonaldsSagaObserverPatternNSB5.FriesEndpoint.csproj", "{43775ABC-C6F4-48E9-B7F5-8A1C8A6A7063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B088988-0D86-42CC-80A4-4414753B2496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B088988-0D86-42CC-80A4-4414753B2496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B088988-0D86-42CC-80A4-4414753B2496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B088988-0D86-42CC-80A4-4414753B2496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A82ADD6-07BB-4E7A-BD33-2AAD1B4A277C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A82ADD6-07BB-4E7A-BD33-2AAD1B4A277C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A82ADD6-07BB-4E7A-BD33-2AAD1B4A277C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A82ADD6-07BB-4E7A-BD33-2AAD1B4A277C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18D916E-6E42-4D88-874E-0FEE0247455B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18D916E-6E42-4D88-874E-0FEE0247455B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18D916E-6E42-4D88-874E-0FEE0247455B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18D916E-6E42-4D88-874E-0FEE0247455B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9E0BBD-57D8-4F09-A15E-EE2C26FF26BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9E0BBD-57D8-4F09-A15E-EE2C26FF26BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9E0BBD-57D8-4F09-A15E-EE2C26FF26BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9E0BBD-57D8-4F09-A15E-EE2C26FF26BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF41863B-7BAA-45DC-8EBD-92BDF02B76AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF41863B-7BAA-45DC-8EBD-92BDF02B76AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF41863B-7BAA-45DC-8EBD-92BDF02B76AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF41863B-7BAA-45DC-8EBD-92BDF02B76AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43775ABC-C6F4-48E9-B7F5-8A1C8A6A7063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43775ABC-C6F4-48E9-B7F5-8A1C8A6A7063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43775ABC-C6F4-48E9-B7F5-8A1C8A6A7063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43775ABC-C6F4-48E9-B7F5-8A1C8A6A7063}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
