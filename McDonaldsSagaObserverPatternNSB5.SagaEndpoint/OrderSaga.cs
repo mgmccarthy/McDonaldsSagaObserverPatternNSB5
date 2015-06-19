@@ -44,24 +44,24 @@ namespace McDonaldsSagaObserverPatternNSB5.SagaEndpoint
         public void Handle(FriesCompleted message)
         {
             Log.Warn(" FriesCompleted");
-            UpdateMenuItemInOrderListToTrue("Fries");
+            RemoveMenuItemFromOrderList("Fries");
         }
 
         public void Handle(ShakeCompleted message)
         {
             Log.Warn(" ShakeCompleted");
-            UpdateMenuItemInOrderListToTrue("Shake");
+            RemoveMenuItemFromOrderList("Shake");
         }
 
-        private void UpdateMenuItemInOrderListToTrue(string menuItem)
+        private void RemoveMenuItemFromOrderList(string menuItem)
         {
-            Log.Warn(string.Format(" updating menu item in order list for {0}", menuItem));
+            Log.Warn(string.Format(" removing menu item {0} from order list.", menuItem));
             Data.OrderList.Remove(menuItem);
-            if (SagaIsDone())
+            if (TheOrderIsComplete())
                 PublishOrderFinishedAndMarkSagaAsComplete();
         }
 
-        private bool SagaIsDone()
+        private bool TheOrderIsComplete()
         {
             return !Data.OrderList.Any();
         }

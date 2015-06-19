@@ -21,7 +21,7 @@ namespace McDonaldsSagaObserverPatternNSB5.ShakeEndpoint
             Log.Warn("starting to make shake");
             Thread.Sleep(3000); //3 seconds
             Log.Warn("shake done");
-            bus.Reply((object) new ShakeCompleted { OrderId = message.OrderId });
+            bus.Reply(new ShakeCompleted { OrderId = message.OrderId });
         }
     }
 }
